@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a5/Tsunami_by_hokusai_19th_century.jpg");
+  font-family: 'Bebas Neue', sans-serif;
+  color: #91C8E4;
+  font-size: #749BC2;
+  line-height: 30px;
+}
+
+p {}
+
+h1 {
+  color: #4682A9;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 26px;
+  line-height: 39px;
+}
+
+h2 {
+  color: #4682A9;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #F6F4EB;
+  padding: 30px;
+  border: 3px solid #4682A9;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline>li {
+  display: inline-block;
+  padding: 0px 20px;
+  height: 45px;
+  width: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.fa-brands {
+  font-size: 2em;
+}
+
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: #91C8E4;
+}
